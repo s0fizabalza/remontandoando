@@ -10,10 +10,16 @@ public class Estudiante : Persona
     public string Carrera { get; set; }
     public double Promedio { get; set; }
 
-    // Constructor para inicializar todos los atributos
+    // Constructor
     public Estudiante(string nombre, string apellido, int edad, string carrera, double promedio) : base(nombre, apellido, edad)
     {
         Carrera = carrera;
         Promedio = promedio;
+    }
+
+    // Método para actualizar 
+    public void ActualizarPromedio(double nuevoPromedio)
+    {
+        Promedio = nuevoPromedio;
     }
 }
