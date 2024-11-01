@@ -46,5 +46,9 @@ public class CuentaBancaria
             return false;
         }
     }
+    public decimal ObtenerSaldo()
+    {
+        return Saldo;
+    }
    
 }
