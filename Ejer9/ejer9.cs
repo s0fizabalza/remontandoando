@@ -15,7 +15,7 @@ public class Direccion
     }
 
 
-public int ObtenerCodigoPostalFicticio()
+public int CodigoPostal()
     {
         return Altura * Calle.Length;
     }
