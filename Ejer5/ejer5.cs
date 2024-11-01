@@ -10,10 +10,10 @@ public class Casa
     {
         Capacidad = capacidad;
         ColorExterior = colorExterior;
-        Habitantes = new List<Persona>(); // Inicializamos la lista de habitantes
+        Habitantes = new List<Persona>(); 
     }
 
-    // Método para agregar un habitante a la casa
+    
     public void AgregarHabitante(Persona persona)
     {
         Habitantes.Add(persona);
