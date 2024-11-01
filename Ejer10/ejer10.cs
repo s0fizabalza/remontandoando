@@ -14,7 +14,7 @@ public class Persona
 
     }
 
-     public bool EsMayorDeEdad()
+     public bool MayorDeEdad()
     {
         return Edad >= MAYORIA_DE_EDAD;
     }
